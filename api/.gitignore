@@ -1,0 +1,4 @@
+node_modules
+dist
+bibliotecas.yaml
+comandos-docker.yaml
