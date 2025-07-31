@@ -8,6 +8,7 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
     "eslint": "^9.32.0",
     "nodemon": "^3.1.10",
     "prettier": "3.6.2",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "mongoose": "^8.16.5"
+    "mongoose": "^8.16.5",
+    "multer": "^2.0.2"
   }
 }
