@@ -10,6 +10,7 @@ import { createOrder } from "../app/useCases/orders/createOrder";
 import { listOrders } from "../app/useCases/orders/listOrders";
 import { createProduct } from "../app/useCases/products/createProduct";
 import { listProducts } from "../app/useCases/products/listProducts";
+import { cancelOrder } from "../app/useCases/orders/cancelOrder";
 
 // salva dentro de um diretório um upload de uma imagem
 const upload = multer({
@@ -41,6 +42,4 @@ router.post('/orders', createOrder)
 
 router.patch('/orders/:orderId', changeOrderStatus)
 
-router.delete('/orders/:orderId', (req, res) => {
-  res.send('OK')
-})
+router.delete('/orders/:orderId', cancelOrder)
