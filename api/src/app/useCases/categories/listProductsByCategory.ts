@@ -7,7 +7,6 @@ export async function listProductsByCategory(req: Request, res: Response) {
 
     const products = await Product.find().where('category').equals(categoryId);
 
-    console.log(products)
     res.json(products);
   }
   catch(erro) {
