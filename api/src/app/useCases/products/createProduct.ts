@@ -11,7 +11,7 @@ export async function createProduct(req: Request, res: Response) {
       description,
       imagePath,
       price: Number(price),
-      ingredients: ingredients ? JSON.parse(ingredients): null,
+      ingredients: ingredients ? JSON.parse(ingredients): [],
       category
     })
 

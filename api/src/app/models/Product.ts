@@ -6,7 +6,7 @@ export const Product = model('Product', new Schema({
   imagePath: { type: String, required: true },
   price: { type: Number, required: true },
   ingredients: {
-    required: false,
+    required: true,
     type: [{
       name: { type: String, required: true },
       icon: { type: String, required: true },
