@@ -21,5 +21,3 @@ import { router } from './router';
     .catch(() => {
       console.log('Erro ao rodar o banco MongoDB');
     })
-
-
