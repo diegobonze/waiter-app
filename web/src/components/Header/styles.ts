@@ -30,5 +30,4 @@ export const HeaderContent = styled.div`
       margin-top: 6px;
     }
   }
-  
 `; 
